@@ -2,9 +2,6 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Lib.Common": {
-      "target": "project"
-    },
     "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
     "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0"
   },
@@ -12,6 +9,9 @@
   "frameworks": {
     "net46": {
       "dependencies": {
+        "Lib.Common.net46": {
+          "target": "project"
+        }
       }
     }
   }
