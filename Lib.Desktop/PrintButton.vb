@@ -8,7 +8,7 @@ Public Class PrintButton
     Public Property Output As TextBlock
 
     Protected Overrides Sub OnClick()
-        Output.Visibility = Windows.Visibility.Visible
+        Output.Visibility = System.Windows.Visibility.Visible
         Output.Text = Printer.Print(Formatter)
     End Sub
 End Class

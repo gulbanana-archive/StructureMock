@@ -10,7 +10,8 @@
     <AssemblyName>Lib.Desktop</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,9 +71,9 @@
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lib.Common.net46\Lib.Common.net46.csproj">
+    <ProjectReference Include="..\Lib.Common.net452\Lib.Common.net452.csproj">
       <Project>{00362527-7da8-449c-b23e-2b3d397fab22}</Project>
-      <Name>Lib.Common.net46</Name>
+      <Name>Lib.Common.net452</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

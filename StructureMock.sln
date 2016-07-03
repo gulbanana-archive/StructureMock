@@ -13,7 +13,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApp", "WebApp\WebApp.xpr
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lib.Common", "Lib.Common\Lib.Common.shproj", "{72122B1D-A503-48BF-B49C-EEA9AE752569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common.net46", "Lib.Common.net46\Lib.Common.net46.csproj", "{00362527-7DA8-449C-B23E-2B3D397FAB22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common.net452", "Lib.Common.net452\Lib.Common.net452.csproj", "{00362527-7DA8-449C-B23E-2B3D397FAB22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common.netstandard13", "Lib.Common.netstandard13\Lib.Common.netstandard13.csproj", "{7708A058-7BF9-4D8F-AA9A-69497E7A4606}"
 EndProject
