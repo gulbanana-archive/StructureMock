@@ -8,8 +8,4 @@
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>Lib.Common</Import_RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)IFormatter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Printer.cs" />
-  </ItemGroup>
 </Project>
