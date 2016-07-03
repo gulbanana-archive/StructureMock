@@ -1,4 +1,4 @@
-﻿using Lib.Common.Core;
+﻿using Lib.Core;
 
 namespace Lib.Common
 {

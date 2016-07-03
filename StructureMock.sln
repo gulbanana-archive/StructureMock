@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common", "Lib.Common\Li
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lib.Desktop", "Lib.Desktop\Lib.Desktop.vbproj", "{419BFB90-5750-4645-8861-FEBEB0F995CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common.Core", "Lib.Common.Core\Lib.Common.Core.csproj", "{6A393266-10FD-499D-93C8-CFCD46E4B814}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{6A393266-10FD-499D-93C8-CFCD46E4B814}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Plugin", "Lib.Plugin\Lib.Plugin.csproj", "{3D02A133-9D08-40B9-91DA-F3169CE68059}"
 EndProject

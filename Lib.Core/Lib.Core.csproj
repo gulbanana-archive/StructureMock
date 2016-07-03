@@ -7,8 +7,8 @@
     <ProjectGuid>{6A393266-10FD-499D-93C8-CFCD46E4B814}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lib.Common.Core</RootNamespace>
-    <AssemblyName>Lib.Common.Core</AssemblyName>
+    <RootNamespace>Lib.Core</RootNamespace>
+    <AssemblyName>Lib.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

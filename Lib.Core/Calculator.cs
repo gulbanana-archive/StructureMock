@@ -1,4 +1,4 @@
-﻿namespace Lib.Common.Core
+﻿namespace Lib.Core
 {
     public class Calculator
     {
