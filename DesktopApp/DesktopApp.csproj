@@ -82,13 +82,13 @@
       <Project>{00362527-7da8-449c-b23e-2b3d397fab22}</Project>
       <Name>Lib.Common.net46</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Lib.Plugin\Lib.Plugin.csproj">
-      <Project>{3D02A133-9D08-40B9-91DA-F3169CE68059}</Project>
-      <Name>Lib.Plugin</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lib.Desktop\Lib.Desktop.vbproj">
       <Project>{419bfb90-5750-4645-8861-febeb0f995cd}</Project>
       <Name>Lib.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib.Plugin.net452\Lib.Plugin.net452.vbproj">
+      <Project>{12f70ded-054f-4cb6-a68e-e1d6c8679431}</Project>
+      <Name>Lib.Plugin.net452</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

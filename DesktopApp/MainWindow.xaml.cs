@@ -1,4 +1,4 @@
-﻿using Lib.Common.Formats;
+﻿using Lib.Plugin;
 using System.Windows;
 
 namespace DesktopApp

@@ -23,7 +23,7 @@
         "Lib.Common.netstandard13": {
           "target": "project"
         },
-        "Lib.Plugin": {
+        "Lib.Plugin.netstandard13": {
           "target": "project"
         }
       }
