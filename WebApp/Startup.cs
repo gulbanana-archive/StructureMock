@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.IO;
+#if NET_CORE
+using System.Reflection;
+#endif
 
 namespace WebApp
 {
@@ -25,7 +28,11 @@ namespace WebApp
 
         public void ConfigureServices(IServiceCollection services)
         {
+#if NET_CORE
+            services.AddMvc().AddApplicationPart(typeof(PrintController).GetTypeInfo().Assembly);
+#else
             services.AddMvc().AddApplicationPart(typeof(PrintController).Assembly);
+#endif
             services.AddSingleton<IFormatter>(new QuoteFormatter());
         }
 

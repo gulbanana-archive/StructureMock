@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "Lib.Web": "1.0.0-*",
     "Microsoft.AspNetCore.Mvc": "1.0.0",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
@@ -10,7 +9,10 @@
     "Microsoft.Extensions.Logging": "1.0.0",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
-    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0"
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Lib.Web": { "target": "project" },
+    "Lib.Common.netstandard13": { "target": "project" },
+    "Lib.Plugin.netstandard13": { "target": "project" }
   },
 
   "tools": {
@@ -20,12 +22,18 @@
   "frameworks": {
     "net46": {
       "dependencies": {
-        "Lib.Common.netstandard13": {
-          "target": "project"
+      }
+    },
+    "netcoreapp10": {
+      "buildOptions": {
+        "define": [ "NET_CORE" ]
+      },
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
         },
-        "Lib.Plugin.netstandard13": {
-          "target": "project"
-        }
+        "System.Reflection.TypeExtensions": "4.1.0"
       }
     }
   },
