@@ -5,11 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lib.Desktop", "Lib.Desktop\Lib.Desktop.vbproj", "{419BFB90-5750-4645-8861-FEBEB0F995CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopApp", "DesktopApp\DesktopApp.csproj", "{355E1838-26E1-4AE5-B7E2-68BAF465AD88}"
-EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lib.Web", "Lib.Web\Lib.Web.xproj", "{8EB24E52-8329-4BC6-9873-7104FBFE6021}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApp", "WebApp\WebApp.xproj", "{749365CC-6F85-45A6-8EB9-CF812F8FAA93}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lib.Common", "Lib.Common\Lib.Common.shproj", "{72122B1D-A503-48BF-B49C-EEA9AE752569}"
 EndProject
@@ -19,20 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Common.netstandard13", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib.Core", "Lib.Core\Lib.Core.csproj", "{AD2446D4-FD65-412D-A514-B206F6284359}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Lib.Plugin", "Lib.Plugin\Lib.Plugin.shproj", "{EB9B4369-5BFF-48E3-94F3-9511C2226494}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lib.Plugin.net452", "Lib.Plugin.net452\Lib.Plugin.net452.vbproj", "{12F70DED-054F-4CB6-A68E-E1D6C8679431}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lib.Plugin.netstandard13", "Lib.Plugin.netstandard13\Lib.Plugin.netstandard13.vbproj", "{475359ED-8F3D-4238-B1E2-3C8CAA78DC2F}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Lib.Common\Lib.Common.projitems*{00362527-7da8-449c-b23e-2b3d397fab22}*SharedItemsImports = 4
-		Lib.Plugin\Lib.Plugin.projitems*{12f70ded-054f-4cb6-a68e-e1d6c8679431}*SharedItemsImports = 4
-		Lib.Plugin\Lib.Plugin.projitems*{475359ed-8f3d-4238-b1e2-3c8caa78dc2f}*SharedItemsImports = 4
 		Lib.Common\Lib.Common.projitems*{72122b1d-a503-48bf-b49c-eea9ae752569}*SharedItemsImports = 13
 		Lib.Common\Lib.Common.projitems*{7708a058-7bf9-4d8f-aa9a-69497e7a4606}*SharedItemsImports = 4
-		Lib.Plugin\Lib.Plugin.projitems*{eb9b4369-5bff-48e3-94f3-9511c2226494}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,18 +30,10 @@ Global
 		{419BFB90-5750-4645-8861-FEBEB0F995CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419BFB90-5750-4645-8861-FEBEB0F995CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419BFB90-5750-4645-8861-FEBEB0F995CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{355E1838-26E1-4AE5-B7E2-68BAF465AD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{355E1838-26E1-4AE5-B7E2-68BAF465AD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{355E1838-26E1-4AE5-B7E2-68BAF465AD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{355E1838-26E1-4AE5-B7E2-68BAF465AD88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EB24E52-8329-4BC6-9873-7104FBFE6021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EB24E52-8329-4BC6-9873-7104FBFE6021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB24E52-8329-4BC6-9873-7104FBFE6021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB24E52-8329-4BC6-9873-7104FBFE6021}.Release|Any CPU.Build.0 = Release|Any CPU
-		{749365CC-6F85-45A6-8EB9-CF812F8FAA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{749365CC-6F85-45A6-8EB9-CF812F8FAA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{749365CC-6F85-45A6-8EB9-CF812F8FAA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{749365CC-6F85-45A6-8EB9-CF812F8FAA93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00362527-7DA8-449C-B23E-2B3D397FAB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00362527-7DA8-449C-B23E-2B3D397FAB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00362527-7DA8-449C-B23E-2B3D397FAB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,14 +46,6 @@ Global
 		{AD2446D4-FD65-412D-A514-B206F6284359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2446D4-FD65-412D-A514-B206F6284359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2446D4-FD65-412D-A514-B206F6284359}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12F70DED-054F-4CB6-A68E-E1D6C8679431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12F70DED-054F-4CB6-A68E-E1D6C8679431}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12F70DED-054F-4CB6-A68E-E1D6C8679431}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12F70DED-054F-4CB6-A68E-E1D6C8679431}.Release|Any CPU.Build.0 = Release|Any CPU
-		{475359ED-8F3D-4238-B1E2-3C8CAA78DC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{475359ED-8F3D-4238-B1E2-3C8CAA78DC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{475359ED-8F3D-4238-B1E2-3C8CAA78DC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{475359ED-8F3D-4238-B1E2-3C8CAA78DC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
