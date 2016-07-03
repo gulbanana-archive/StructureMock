@@ -10,9 +10,7 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
-    "Lib.Web": { "target": "project" },
-    "Lib.Common.netstandard13": { "target": "project" },
-    "Lib.Plugin.netstandard13": { "target": "project" }
+    "Lib.Web": { "target": "project" }
   },
 
   "tools": {
@@ -20,8 +18,12 @@
   },
 
   "frameworks": {
-    "net46": {
+    "net452": {
       "dependencies": {
+        "Lib.Common.net452": { "target": "project" },
+        "Lib.Plugin.net452": {
+          "target": "project"
+        }
       }
     },
     "netcoreapp10": {
@@ -33,7 +35,9 @@
           "version": "1.0.0",
           "type": "platform"
         },
-        "System.Reflection.TypeExtensions": "4.1.0"
+        "System.Reflection.TypeExtensions": "4.1.0",
+        "Lib.Common.netstandard13": { "target": "project" },
+        "Lib.Plugin.netstandard13": { "target": "project" }
       }
     }
   },

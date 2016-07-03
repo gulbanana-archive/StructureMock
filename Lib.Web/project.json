@@ -3,12 +3,21 @@
 
   "dependencies": {
     "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
-    "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0",
-    "Lib.Common.netstandard13": { "target": "project" }
+    "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0"
   },
 
   "frameworks": {
-    "netstandard16": {},
-    "net46": {}
+    "netstandard16": {
+      "dependencies": {
+        "Lib.Common.netstandard13": { "target": "project" }
+      }
+    },
+    "net452": {
+      "dependencies": {
+        "Lib.Common.net452": {
+          "target": "project"
+        }
+      }
+    }
   }
 }
