@@ -18,7 +18,7 @@
     "WebApp": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/debug",
+      "launchUrl": "http://localhost:5000/api/print",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

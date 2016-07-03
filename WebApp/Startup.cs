@@ -25,7 +25,7 @@ namespace WebApp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().AddApplicationPart(typeof(DebugController).Assembly);
+            services.AddMvc().AddApplicationPart(typeof(PrintController).Assembly);
             services.AddSingleton<IFormatter>(new QuoteFormatter());
         }
 

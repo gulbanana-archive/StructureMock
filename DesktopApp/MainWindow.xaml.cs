@@ -9,6 +9,7 @@ namespace DesktopApp
         {
             InitializeComponent();
             Button.Formatter = new QuoteFormatter();
+            Button.Output = Output;
         }
     }
 }

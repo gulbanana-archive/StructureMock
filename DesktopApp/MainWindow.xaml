@@ -2,6 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:lib="clr-namespace:Lib.Desktop;assembly=Lib.Desktop"
-        Title="MainWindow" Height="240" Width="320">
-    <lib:DebugButton Name="Button" Content="Click me!" FontSize="24"/>
+        Title="MainWindow" SizeToContent="WidthAndHeight" FontSize="24">
+    <StackPanel Margin="2">
+        <lib:PrintButton DockPanel.Dock="Top" Name="Button" Content="Click me!" MinWidth="200"/>
+        <TextBlock DockPanel.Dock="Bottom" Name="Output" TextAlignment="Center" Visibility="Collapsed"/>
+    </StackPanel>
 </Window>
