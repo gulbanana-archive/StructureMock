@@ -1,13 +1,10 @@
-﻿using Lib.Core;
-
-namespace Lib.Common
+﻿namespace Lib.Common
 {
     public static class Printer
     {
         public static string Print(IFormatter f)
         {
-            var c = new Calculator();
-            var text = f.Format(c.CalculateNumber());
+            var text = f.Format(1);
             return $"Output: {text}";
         }
     }
