@@ -9,7 +9,7 @@
   "frameworks": {
     "net46": {
       "dependencies": {
-        "Lib.Common.net46": {
+        "Lib.Common.netstandard13": {
           "target": "project"
         }
       }

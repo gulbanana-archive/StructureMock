@@ -16,6 +16,7 @@
     <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lib.Common.netstandard13\Lib.Common.netstandard13.csproj" />
     <ProjectReference Include="..\Lib.Plugin\Lib.Plugin.csproj" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\DotNet.Web\Microsoft.DotNet.Web.targets" Condition="'$(VSToolsPath)' != ''" />

@@ -20,6 +20,9 @@
   "frameworks": {
     "net46": {
       "dependencies": {
+        "Lib.Common.netstandard13": {
+          "target": "project"
+        },
         "Lib.Plugin": {
           "target": "project"
         }
