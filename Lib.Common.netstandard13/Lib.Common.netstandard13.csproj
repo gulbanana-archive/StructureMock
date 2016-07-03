@@ -47,7 +47,6 @@
       <Name>Lib.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="..\Lib.Common\Lib.Common.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
